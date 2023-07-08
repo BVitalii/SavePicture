@@ -13,6 +13,7 @@
 		FA1EFE5C2A570EC9007D0850 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA1EFE5A2A570EC9007D0850 /* Main.storyboard */; };
 		FA1EFE5E2A570ECB007D0850 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA1EFE5D2A570ECB007D0850 /* Assets.xcassets */; };
 		FA1EFE612A570ECB007D0850 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA1EFE5F2A570ECB007D0850 /* LaunchScreen.storyboard */; };
+		FA1EFE6B2A573114007D0850 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1EFE6A2A573114007D0850 /* StartViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FA1EFE5D2A570ECB007D0850 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA1EFE602A570ECB007D0850 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA1EFE622A570ECB007D0850 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA1EFE6A2A573114007D0850 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				FA1EFE542A570EC9007D0850 /* AppDelegate.swift */,
 				FA1EFE562A570EC9007D0850 /* SceneDelegate.swift */,
 				FA1EFE582A570EC9007D0850 /* ViewController.swift */,
+				FA1EFE6A2A573114007D0850 /* StartViewController.swift */,
 				FA1EFE5A2A570EC9007D0850 /* Main.storyboard */,
 				FA1EFE5D2A570ECB007D0850 /* Assets.xcassets */,
 				FA1EFE5F2A570ECB007D0850 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA1EFE592A570EC9007D0850 /* ViewController.swift in Sources */,
+				FA1EFE6B2A573114007D0850 /* StartViewController.swift in Sources */,
 				FA1EFE552A570EC9007D0850 /* AppDelegate.swift in Sources */,
 				FA1EFE572A570EC9007D0850 /* SceneDelegate.swift in Sources */,
 			);
@@ -291,6 +295,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SavePicture/Info.plist;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -318,6 +324,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SavePicture/Info.plist;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
